@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Design System */
+
+:root {
+
+    /* Brand Colours */
+
+    --primary: #315B4B;
+    --background: #F3EFE7;
+    --accent: #C49A65;
+    --text-primary: #34413A;
+
+    /* Secondary Colours */
+
+    --sage: #DCE5DC;
+    --white: #FFFFFF;
+
+    /* Typography */
+
+    --font-heading: 'Manrope', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+
+    /* Layout */
+
+    --radius: 10px;
+    --container-width: 1200px;
+}
+
+/* Global Styles */
+
+body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+}
