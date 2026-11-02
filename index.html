@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,25 +15,210 @@
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- JavaScript -->
     <script src="JavaScript/main.js" defer></script>
 </head>
 
 <body>
 
-    <header>
-        <!-- Navigation will go here -->
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar container">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 40 40" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 3C10.6 3 3 10.6 3 20s7.6 17 17 17 17-7.6 17-17S29.4 3 20 3Z"
+                            stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M20 8C13.4 8 8 13.4 8 20s5.4 12 12 12 12-5.4 12-12S26.6 8 20 8Z"
+                            stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M20 13c-3.9 0-7 3.1-7 7s3.1 7 7 7 7-3.1 7-7-3.1-7-7-7Z"
+                            stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </span>
+
+                <span>Terra<span class="logo-highlight">SA</span></span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <a href="#explore" class="nav-button">
+                Start exploring
+                <span>→</span>
+            </a>
+
+        </nav>
     </header>
 
+
+    <!-- Main Content -->
     <main>
-        <!-- Homepage content will go here -->
+
+        <!-- Hero Section -->
+        <section class="hero container">
+
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    <span class="eyebrow-line"></span>
+                    DISCOVER SOUTH AFRICA
+                </span>
+
+                <h1>
+                    Discover the places
+                    <span>that make us.</span>
+                </h1>
+
+                <p class="hero-description">
+                    From vibrant cities to breathtaking landscapes,
+                    explore the provinces, places and stories that
+                    make South Africa unique.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#explore" class="primary-button">
+                        Explore the map <span>→</span>
+                    </a>
+
+                    <a href="#about" class="secondary-button">
+                        Learn about TerraSA
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-decoration">
+                <div class="decoration-circle circle-one"></div>
+                <div class="decoration-circle circle-two"></div>
+                <div class="decoration-circle circle-three"></div>
+
+                <span class="decoration-label">
+                    22°S · 30°E
+                </span>
+
+                <span class="decoration-caption">
+                    THE BEAUTY OF SOUTH AFRICA
+                </span>
+            </div>
+
+        </section>
+
+
+        <!-- Introduction / Statistics -->
+        <section class="introduction container" id="about">
+
+            <div class="section-heading">
+                <span class="eyebrow">GET TO KNOW OUR COUNTRY</span>
+
+                <h2>South Africa, at a glance.</h2>
+
+                <p>
+                    A country of diverse landscapes, rich histories
+                    and communities, each with a story worth discovering.
+                </p>
+            </div>
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <span class="stat-number">09</span>
+                    <span class="stat-label">Provinces</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-number">11</span>
+                    <span class="stat-label">Official languages</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-number">01</span>
+                    <span class="stat-label">Beautiful country</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Map Exploration Section -->
+        <section class="explore-section" id="explore">
+
+            <div class="container">
+
+                <div class="explore-heading">
+                    <div>
+                        <span class="eyebrow">YOUR JOURNEY STARTS HERE</span>
+
+                        <h2>Explore South Africa.</h2>
+
+                        <p>
+                            Select a province on the map and discover
+                            the places, people and stories within it.
+                        </p>
+                    </div>
+
+                    <span class="map-label">
+                        <span class="status-dot"></span>
+                        INTERACTIVE MAP
+                    </span>
+                </div>
+
+
+                <!-- Map Placeholder -->
+                <div class="map-container">
+
+                    <div class="map-placeholder">
+
+                        <div class="map-placeholder-content">
+                            <span class="map-icon">✳</span>
+
+                            <h3>Something wonderful is taking shape.</h3>
+
+                            <p>
+                                Our interactive map of South Africa
+                                is coming soon.
+                            </p>
+
+                            <span class="map-coming-soon">
+                                MAP COMING SOON
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
-    <footer>
-        <!-- Footer content will go here -->
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <a href="#" class="logo footer-logo">
+                Terra<span class="logo-highlight">SA</span>
+            </a>
+
+            <p>
+                Discover the places that make us.
+            </p>
+
+            <span class="copyright">
+                &copy; 2026 TerraSA. Built with curiosity.
+            </span>
+
+        </div>
+
     </footer>
 
 </body>
